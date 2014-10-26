@@ -8,7 +8,8 @@
 {
     // your code here
 }   character = (Character*)[CCBReader load:@"Character"];
-[physicsNode addChild:character];-(void)update:(CCTime)delta
+[physicsNode addChild:character];
+-(void)update:(CCTime)delta
 {
     // put update code here
 }
